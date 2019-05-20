@@ -1,7 +1,5 @@
 package com.chapter;
 
-import java.util.Arrays;
-
 public class TesteInsecaoOrdenada {
 	
 	public static void main(String[] args) {
