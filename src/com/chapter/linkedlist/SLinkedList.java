@@ -36,4 +36,9 @@ public class SLinkedList {
 		f.setNext(null);
 		size--;
 	}
+	
+	public Node getPenult() {
+		
+		return null;
+	}
 }
