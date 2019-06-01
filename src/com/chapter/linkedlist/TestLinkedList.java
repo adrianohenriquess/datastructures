@@ -13,12 +13,21 @@ public class TestLinkedList {
 		listaEncadeada.addFirst(node2);
 		
 		Node node3 = new Node();
-		node3.setElement("Fernerman");
-		listaEncadeada.addLast(node3);
+		node3.setElement("Cabron");
+		listaEncadeada.addFirst(node3);
 		
-		listaEncadeada.removeFirst();
+		Node node4 = new Node();
+		node4.setElement("Fernerman");
+		listaEncadeada.addFirst(node4);
+		
+		Node node5 = new Node();
+		node5.setElement("Fernando");
+		listaEncadeada.addFirst(node5);
+		
+		//listaEncadeada.removeFirst();
 		
 		System.out.println(listaEncadeada.toString());
+		System.out.println(listaEncadeada.getPenult().getElement());
 	}
 
 }
